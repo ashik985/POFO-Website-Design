@@ -1,0 +1,113 @@
+body{
+margin: 0px;
+}
+header{
+overflow: hidden;
+
+padding: 10px 50px;
+
+border-bottom: 1px solid #7c7a7b54;
+}
+.logo{
+
+width: 20%;
+
+float: left;
+}
+.logo a{
+
+}
+.logo a img{
+
+width: 100px;
+
+float: left;
+}
+.menu{
+
+width: 80%;
+
+float: left;
+}
+.menu ul{
+
+margin: 0px;
+
+padding: 0px;
+
+text-align: right;
+}
+.menu ul li{
+
+    list-style-type: none;
+    display: inline-block;
+}
+.menu ul li a{
+
+text-decoration: none;
+
+color: black;
+
+font-size: 32px;
+
+padding: 30px 25px;
+
+display: block;
+
+transition-duration: 0.3s;
+transition-timing-function: linear;
+transition-property: all;
+}
+.menu ul li a:hover{
+    
+background: red;
+    
+color: white;
+    
+padding: 15px 20px;
+}
+
+
+section{
+    padding-bottom: 350px;
+    padding-top: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.section-one{
+
+background-image: url(../images/1.jpg);
+    
+}
+.section-two{
+background-image: url(../images/2.jpg);
+}
+.section-three{
+background-image: url(../images/3.jpg);
+}
+.section-four{
+background-image: url(../images/4.jpg);
+}
+.section-five{
+background-image: url(../images/5.jpg);
+}
+h1{
+    font-size: 60px;
+    color: white;
+    background: #0f080a87;
+    margin: auto;
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+    transition-property: all;
+}
+h1:hover{
+background: red;
+    
+color: white;
+    
+padding: 15px 20px;
+}
